@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		130E664028281A6300DF9DE8 /* lc_1_twoSum */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = lc_1_twoSum; sourceTree = BUILT_PRODUCTS_DIR; };
 		130E664328281A6300DF9DE8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		130E664A28281A9500DF9DE8 /* twoSum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = twoSum.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				130E664328281A6300DF9DE8 /* main.cpp */,
+				130E664A28281A9500DF9DE8 /* twoSum.h */,
 			);
 			path = lc_1_twoSum;
 			sourceTree = "<group>";
