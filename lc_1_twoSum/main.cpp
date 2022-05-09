@@ -16,11 +16,13 @@ int main(int argc, const char * argv[]) {
     std::cout << "Hello, World!\n";
     solution_twoSum a;
     std::vector<int> vec{2,7,11,15};
+    // [ 0, 1 ]
     std::vector<int> ret = a.twoSum(vec, 9);
     for (std::vector<int>::const_iterator it = ret.begin(); it != ret.end(); ++it ) {
         std::cout << *it << " ";
     }
     std::cout << std::endl;
+    // [ 1, 3 ]
     ret = a.twoSum(vec, 22);
     for (std::vector<int>::const_iterator it = ret.begin(); it != ret.end(); ++it ) {
         std::cout << *it << " ";
